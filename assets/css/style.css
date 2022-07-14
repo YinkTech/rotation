@@ -5,6 +5,11 @@ a {
     color: inherit;
 }
 
+.dropdown {
+    background: #fff;
+    border: 0 solid transparent;
+}
+
 a:hover {
     color: #fff;
 }
@@ -12,6 +17,15 @@ a:hover {
 .login-Img {
     text-align: center;
     width: 150px;
+}
+
+.dropdown-item {
+    color: rgb(17, 156, 17);
+    font-size: 20px;
+}
+
+.bi-bar {
+    font-size: 30px;
 }
 
 .btn-login {
@@ -27,6 +41,11 @@ a:hover {
     flex-direction: column;
 }
 
+.the-table {
+    background: rgba(17, 156, 17, 0.293);
+    color: #000;
+}
+
 .row {
     width: fit-content;
     margin: auto;
@@ -35,12 +54,12 @@ a:hover {
 }
 
 .admin-col-img {
-    width: 500px;
+    width: 300px;
     margin: auto;
 }
 
 .admin-col-sec {
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 .btn-admin {
@@ -50,7 +69,6 @@ a:hover {
     border: 0 solid transparent;
     padding: 10px;
     width: 250px;
-    border-radius: 10px;
 }
 
 .btn-admin:focus {
