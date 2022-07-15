@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posting page</title>
+    <title> Due Posting </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css" >
@@ -22,7 +22,7 @@
   </div>
   <div class="offcanvas-body">
         <a class="dropdown-item p-2" href="./admin-home.html"><i class="bi bi-grip-horizontal"></i> Dashboard</a>
-        <a class="dropdown-item p-2" href="./nomimalroll.html">Nominal Roll</a>
+        <a class="dropdown-item p-2" href="./posting-page.html">Posting</a>
         <a class="dropdown-item p-2" href="./index.html"><i class="bi bi-box-arrow-in-left"></i> Logout</a>
    </div>
 </div>
@@ -31,35 +31,74 @@
         <h2 class="text-uppercase fs-2 fw-bolder text-center">Office of the head of civil service of the federation</h2>
         <h2 class="text-uppercase fs-2 fw-bolder text-center">Service Rotation System</h2>
   </header>
-
-    <div class="row">
-        <div class="admin-col-fist col-md-6 mb-5">
-            <img src="./img/coat-of-arm-logo-png.png" alt="" class="admin-col-img">
-            </div>
-        <div class="admin-col-sec col-md-6">
-            <input type="date" class="input-admin m-3 m-md-2">
-            <select class="input-admin m-3 m-md-0" value="">
-                <option name="" id="">MDA</option>
-                <option name="" id="">MINISTRY of Aviation</option>
-                <option name="" id="">MINISTRY of Agriculture and Rural Development</option>
-                <option name="" id="">MINISTRY of Defence</option>
-                <option name="" id="">MINISTRY of Education</option>
-                <option name="" id="">MINISTRY of Finance</option>
-                <option name="" id="">MINISTRY of Transport</option>
-                <option name="" id="">MINISTRY of Labour</option>
-                <option name="" id="">MINISTRY of Petroleum</option>
-                <option name="" id="">MINISTRY of Power </option>
-                <option name="" id="">MINISTRY of Water Resources</option>
-                <option name="" id="">Office of the Head of Civil Service of the Federation </option>
-                <option name="" id="">Office of the Secretary General of the Federation </option>
-                <option name="" id="">State House </option>
-                <option name="" id="">MINISTRY of Information</option>
-                <option name="" id="">Office of the Accountant General of the Federation </option>
-            </select>
-            <button class="btn-admin"><a href="./posting-result.html">GENERATE</a></button>
-        
-        </div>
-    </div>
+<h4 class="text-uppercase text-center fw-900">List of staff Due for Posting</h4>
+<div class="table-responsive p-4">
+    <table class="table table-striped table-hover">
+      <caption>List of staff due for posting</caption>
+  <thead class="the-table text-uppercase">
+    <tr>
+      <th scope="col">sno</th>
+      <th scope="col">ippis</th>
+      <th scope="col">full name</th>
+      <th scope="col">rank</th>
+      <th scope="col">sgl</th>
+      <th scope="col">MDA</th>
+      <th scope="col">cadre</th>
+      <th scope="col">Last posting</th>
+      <th scope="col">New Posting</th>
+      <th scope="col">department</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>0009</td>
+      <td>FATIMA HASSAN HARUNA </td>
+      <td>DIRECTOR</td>
+      <td>GL17</td>
+      <td>MINISTRY OF DEFENCE</td>
+      <td>Administrator</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>001</td>
+      <td>JAFA BAWA</td>
+      <td>DIRECTOR</td>
+      <td>GL17</td>
+      <td>OFFICE OF THE HEAD OF THE CIVIL SERVICE OF THE FEDERATION</td>
+      <td>Administrator</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>002</td>
+      <td>GIWA A</td>
+      <td>DIRECTOR</td>
+      <td>GL17</td>
+      <td>OFFICE OF THE SECRETARY TO THE GOVERNMENT OF THE FEDERAION</td>
+      <td>Administrator</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>003</td>
+      <td>YAHAYA M A</td>
+      <td>DIRECTOR </td>
+      <td>GL17</td>
+      <td>MINISTRY OF PETROLEUM RESOURCES</td>
+      <td>Administrator</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>004</td>
+      <td>OKOOGUA ABDULRAZ I</td>
+      <td>DIRECTOR</td>
+      <td>GL17</td>
+      <td>OFFICE OF THE HEAD OF THE CIVIL SERVICE OF THE FEDERATION</td>
+      <td>Administrator</td>
+    </tr>
+  </tbody>
+    </table>
+  </div>
+  
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
