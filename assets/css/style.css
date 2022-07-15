@@ -87,6 +87,10 @@ a:hover {
     border-radius: 10px;
 }
 
+.login-input {
+    border-bottom: 3px solid #119c1192;
+}
+
 .input-admin {
     color: #000;
     border-bottom: 5px solid #119c1192;
