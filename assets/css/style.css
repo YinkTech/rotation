@@ -42,7 +42,7 @@ a:hover {
 }
 
 .the-table {
-    background: rgba(17, 156, 17, 0.571);
+    background: #119c1192;
     color: #fff;
 }
 
@@ -86,6 +86,12 @@ a:hover {
     width: 250px;
     border-radius: 10px;
 }
+
+.input-admin {
+    color: #000;
+    border-bottom: 5px solid #119c1192;
+}
+
 @media screen and (max-width: 600px) {
     .btn-login {
         width: -webkit-fill-available;
